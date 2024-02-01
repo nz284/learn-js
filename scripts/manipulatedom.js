@@ -10,12 +10,20 @@ function createTRNode(colNodes) {
   return trNode;
 }
 
+<<<<<<< HEAD
 function createTDNode(childNode,e,l) {
   let btnNode = document.createElement("button");
   let btnNodeText=createTxtNode(btnTxt);
   btnNode.appendChild(btnNodeText);
   btnNode.addEventListener(e,l);
   return btnNode;
+=======
+function createTDNode(childNode) {
+  let tdNode = document.createElement("td");
+  tdNode.classList.add('tdNode');
+  tdNode.appendChild(childNode);
+  return tdNode;
+>>>>>>> main
 }
 
 function createTxtNode(childNode) {
