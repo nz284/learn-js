@@ -14,7 +14,7 @@ function createTRNode(colNodes) {
 <<<<<<< HEAD
 function createTDNode(childNode) {
   let tdNode = document.createElement("td");
-  tdNode.classList.add('tdNode');
+  tdNode.classList.add("tdNode");
   tdNode.appendChild(childNode);
   return tdNode;
 =======
