@@ -35,7 +35,10 @@ class PStackImpl extends PStack {
   show() {
     return this.#persons
   }
-
+  showId() {
+    console.log(this);
+    return this.getId;
+  }
 }
 
 let pstack = new PStackImpl();
